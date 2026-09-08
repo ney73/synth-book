@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "modules": [
+    {
+      "id": "novelneko-v1",
+      "familyID": "novelneko-v1",
+      "name": "Novel Neko",
+      "slug": "novelneko",
+      "version": "1.0.0",
+      "contentType": "text",
+      "language": "fr",
+      "baseURL": "https://novelneko.fr",
+      "manifestPath": "modules/novelneko/manifest.json",
+      "entryPath": "modules/novelneko/index.js"
+    }
+  ]
+}
