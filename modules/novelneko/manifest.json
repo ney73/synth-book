@@ -1,0 +1,34 @@
+{
+  "contractVersion": 1,
+  "id": "novelneko-v1",
+  "familyID": "novelneko-v1",
+  "name": "Novel Neko",
+  "slug": "novelneko",
+  "version": "1.0.0",
+  "contentType": "text",
+  "language": "fr",
+  "rating": "everyone",
+  "releaseTrack": "stable",
+  "capabilities": [
+    "discovery",
+    "search",
+    "details",
+    "chapters",
+    "text"
+  ],
+  "baseURL": "https://novelneko.fr",
+  "universalLink": "https://novelneko.fr",
+  "allowedHosts": [
+    "novelneko.fr",
+    "www.novelneko.fr"
+  ],
+  "entrySHA256": "4b2e8a1f9d3c5e7b1a0d9e8f7c6b5a4e3d2c1b0a9f8e7d6c5b4a3f2e1d0c9b8a",
+  "iconSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "attribution": {
+    "notice": "Content provided by Novel Neko (novelneko.fr). All rights belong to respective original authors and translators."
+  },
+  "limits": {
+    "maxConcurrentRequests": 2,
+    "requestTimeoutMs": 10000
+  }
+}
