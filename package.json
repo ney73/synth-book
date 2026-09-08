@@ -1,0 +1,9 @@
+{
+  "name": "ney73-synth-book",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check modules/novelneko/index.js",
+    "test": "node --test modules/novelneko/test.mjs"
+  }
+}

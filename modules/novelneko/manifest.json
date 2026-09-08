@@ -1,34 +1,47 @@
 {
-  "contractVersion": 1,
-  "id": "novelneko-v1",
-  "familyID": "novelneko-v1",
-  "name": "Novel Neko",
-  "slug": "novelneko",
-  "version": "1.0.0",
-  "contentType": "text",
-  "language": "fr",
-  "rating": "everyone",
-  "releaseTrack": "stable",
+  "allowedHosts": [
+    "novelneko.fr"
+  ],
+  "attribution": {
+    "author": "Novel Neko",
+    "website": "https://novelneko.fr/webnovels/"
+  },
+  "baseURL": "https://novelneko.fr/webnovels/",
   "capabilities": [
-    "discovery",
     "search",
     "details",
     "chapters",
-    "text"
+    "text",
+    "discovery"
   ],
-  "baseURL": "https://novelneko.fr",
-  "universalLink": "https://novelneko.fr",
-  "allowedHosts": [
-    "novelneko.fr",
-    "www.novelneko.fr"
-  ],
-  "entrySHA256": "4b2e8a1f9d3c5e7b1a0d9e8f7c6b5a4e3d2c1b0a9f8e7d6c5b4a3f2e1d0c9b8a",
-  "iconSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "attribution": {
-    "notice": "Content provided by Novel Neko (novelneko.fr). All rights belong to respective original authors and translators."
+  "contentRating": "unknown",
+  "contentType": "text",
+  "contractVersion": 1,
+  "entry": {
+    "path": "modules/novelneko/index.js",
+    "sha256": "871f72f508a4afb747b98110dae226effc225f5a00377321f2b345d2f9a7f6c1"
   },
+  "familyID": "novelneko-web",
+  "icon": {
+    "path": "modules/novelneko/icon.png",
+    "sha256": "7430c04b3aaa06a57cab6d1fab557638161f5396c27beaa3331c4029ff149e06"
+  },
+  "id": "novelneko-web",
+  "language": "fr",
+  "legacyIDs": [
+    "novelneko-v1"
+  ],
   "limits": {
-    "maxConcurrentRequests": 2,
-    "requestTimeoutMs": 10000
-  }
+    "cacheTTLSeconds": 300,
+    "maxConcurrentRequests": 3,
+    "maxResponseBytes": 8388608,
+    "maxScriptBytes": 524288,
+    "timeoutMilliseconds": 30000
+  },
+  "minimumAppVersion": "1.0.0",
+  "name": "NovelNeko Web-Novels",
+  "releaseTrack": "stable",
+  "status": "active",
+  "universalLink": "https://novelneko.fr/webnovels/",
+  "version": "1.0.1"
 }
