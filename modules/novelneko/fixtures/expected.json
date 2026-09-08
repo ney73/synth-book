@@ -1,0 +1,41 @@
+{
+  "searchResults": {
+    "items": [
+      {
+        "id": "/projet/overlord/",
+        "title": "Overlord",
+        "href": "https://novelneko.fr/projet/overlord/",
+        "cover": "https://novelneko.fr/wp-content/uploads/overlord.jpg"
+      }
+    ],
+    "hasMore": false
+  },
+  "extractDetails": {
+    "id": "/projet/overlord/",
+    "title": "Overlord",
+    "cover": "https://novelneko.fr/wp-content/uploads/overlord.jpg",
+    "description": "Un MMORPG populaire, Yggdrasil, ferme ses portes.",
+    "author": "Kugane Maruyama",
+    "status": "En cours",
+    "tags": ["Light Novel", "Traduction Fr"]
+  },
+  "extractChapters": [
+    {
+      "id": "/projet/overlord/chapitre-1/",
+      "title": "Chapitre 1 : Fin et commencement",
+      "url": "https://novelneko.fr/projet/overlord/chapitre-1/",
+      "number": 1
+    },
+    {
+      "id": "/projet/overlord/chapitre-2/",
+      "title": "Chapitre 2 : Le haut drakkar",
+      "url": "https://novelneko.fr/projet/overlord/chapitre-2/",
+      "number": 2
+    }
+  ],
+  "extractText": {
+    "id": "/projet/overlord/chapitre-1/",
+    "title": "Chapitre 1 : Fin et commencement",
+    "content": "C'était un monde virtuel majestueux...\n\nMomonga attendait la fin."
+  }
+}
