@@ -1,5 +1,6 @@
 /**
  * Module NovelFrance pour Synthetiq Books
+ * Format compatible avec la v1 de l'application
  */
 
 function validateUrl(urlStr) {
@@ -39,7 +40,7 @@ export async function searchResults(query, page = 1) {
 }
 
 export async function extractDetails(novelUrl) {
-  if (!validateUrl(novelUrl)) throw new Error("URL invalide ou non autorisée.");
+  if (!validateUrl(novelUrl)) throw new Error("URL invalide ou non sécurisée.");
 
   const response = await fetchv2(novelUrl, { "User-Agent": "SynthetiqBooks/1.0" }, "GET", null, {});
   const data = JSON.parse(response.body);
@@ -82,7 +83,7 @@ export async function extractText(chapterUrl) {
   const data = JSON.parse(response.body);
 
   if (data.isLocked || data.isPaid) {
-    throw new Error("Ce chapitre est réservé aux membres payants.");
+    throw new Error("Ce chapitre est payant ou verrouillé.");
   }
 
   return {
