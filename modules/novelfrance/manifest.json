@@ -1,0 +1,25 @@
+{
+  "id": "novelfrance-v1",
+  "familyID": "novelfrance-v1",
+  "name": "Novel France",
+  "version": "1.0.0",
+  "contentType": "text",
+  "language": "fr",
+  "baseURL": "https://novelfrance.fr",
+  "contentRating": "everyone",
+  "status": "active",
+  "releaseTrack": "stable",
+  "minimumAppVersion": "1.0.0",
+  "entry": {
+    "path": "index.js",
+    "sha256": "HASH_SHA256_DE_INDEX_JS"
+  },
+  "icon": {
+    "path": "icon.png",
+    "sha256": "HASH_SHA256_DE_ICON_PNG"
+  },
+  "limits": {
+    "requestsPerMinute": 30,
+    "concurrentRequests": 3
+  }
+}
