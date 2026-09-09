@@ -33,7 +33,7 @@
 }
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T20:50:00Z",
+  "generatedAt": "2026-09-09T06:18:00Z",
   "repository": {
     "id": "ney73-synth-book",
     "name": "Synthetiq Custom Sources",
@@ -43,6 +43,28 @@
     "universalLink": "https://github.com/ney73/synth-book"
   },
   "modules": [
+    {
+      "id": "novelneko-v1",
+      "familyID": "novelneko-v1",
+      "name": "Novel Neko",
+      "slug": "novelneko",
+      "version": "1.0.0",
+      "contentType": "text",
+      "language": "fr",
+      "baseURL": "https://novelneko.fr",
+      "manifest": {
+        "path": "modules/novelneko/manifest.json",
+        "sha256": "HASH_SHA256_NOVELNEKO_MANIFEST"
+      },
+      "entry": {
+        "path": "modules/novelneko/index.js",
+        "sha256": "HASH_SHA256_NOVELNEKO_INDEX"
+      },
+      "icon": {
+        "path": "modules/novelneko/icon.png",
+        "sha256": "HASH_SHA256_NOVELNEKO_ICON"
+      }
+    },
     {
       "id": "novelfrance-v1",
       "familyID": "novelfrance-v1",
@@ -54,17 +76,18 @@
       "baseURL": "https://novelfrance.fr",
       "manifest": {
         "path": "modules/novelfrance/manifest.json",
-        "sha256": "HASH_SHA256_DU_MANIFEST"
+        "sha256": "HASH_SHA256_NOVELFRANCE_MANIFEST"
       },
       "entry": {
         "path": "modules/novelfrance/index.js",
-        "sha256": "HASH_SHA256_DE_INDEX_JS"
+        "sha256": "HASH_SHA256_NOVELFRANCE_INDEX"
       },
       "icon": {
         "path": "modules/novelfrance/icon.png",
-        "sha256": "HASH_SHA256_DE_ICON_PNG"
+        "sha256": "HASH_SHA256_NOVELFRANCE_ICON"
       }
     }
   ]
 }
+
 
