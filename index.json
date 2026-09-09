@@ -31,3 +31,40 @@
     }
   ]
 }
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-08T20:50:00Z",
+  "repository": {
+    "id": "ney73-synth-book",
+    "name": "Synthetiq Custom Sources",
+    "owner": "ney73",
+    "url": "https://github.com/ney73/synth-book",
+    "homepage": "https://github.com/ney73/synth-book",
+    "universalLink": "https://github.com/ney73/synth-book"
+  },
+  "modules": [
+    {
+      "id": "novelfrance-v1",
+      "familyID": "novelfrance-v1",
+      "name": "Novel France",
+      "slug": "novelfrance",
+      "version": "1.0.0",
+      "contentType": "text",
+      "language": "fr",
+      "baseURL": "https://novelfrance.fr",
+      "manifest": {
+        "path": "modules/novelfrance/manifest.json",
+        "sha256": "HASH_SHA256_DU_MANIFEST"
+      },
+      "entry": {
+        "path": "modules/novelfrance/index.js",
+        "sha256": "HASH_SHA256_DE_INDEX_JS"
+      },
+      "icon": {
+        "path": "modules/novelfrance/icon.png",
+        "sha256": "HASH_SHA256_DE_ICON_PNG"
+      }
+    }
+  ]
+}
+
